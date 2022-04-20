@@ -3,7 +3,9 @@ const DisplayEntries = props => {
     <table>
       <thead>
         <tr>
-          <th> Entry Number </th> <th> Weight</th> <th> Date </th>
+          <th>Entry Number</th>
+          <th>Weight</th>
+          <th>Date</th>
         </tr>
       </thead>
       <tbody>
@@ -11,8 +13,8 @@ const DisplayEntries = props => {
           return (
             <tr>
               <td>{i + 1}</td>
-              <td>{entry.wieght} </td>
-              <td>{entry.date} </td>
+              <td>{entry.weight}</td>
+              <td>{entry.date}</td>
             </tr>
           );
         })}
